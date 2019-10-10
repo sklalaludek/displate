@@ -1,0 +1,5 @@
+export const ADD_ROW = "ADD_ROW";
+export const DELETE_ROW = "DELETE_ROW";
+export const FETCH_DATA_FAILURE = "FETCH_DATA_FAILURE";
+export const FETCH_DATA_START = "FETCH_DATA_START";
+export const FETCH_DATA_SUCCESS = "FETCH_DATA_SUCCESS";

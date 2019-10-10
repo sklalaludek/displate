@@ -1,0 +1,19 @@
+.App {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+}

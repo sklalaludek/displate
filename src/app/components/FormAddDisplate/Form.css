@@ -1,0 +1,77 @@
+*  {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+h2 {
+	color: #222;
+	text-align: center;
+}
+
+h2 > div {
+	text-align: center;
+}
+
+.add_form {
+	border-radius: 3px;
+	border: 1px solid #d2d2d2;
+	margin: 10px auto;
+	max-width: 600px;
+	padding: 20px;
+}
+
+.add_form > div {
+	display: flex;
+	flex-flow: row nowrap;
+	line-height: 2em;
+	margin: 5px;
+}
+
+.add_form > div > label {
+	color: #333;
+	font-size: 1em;
+	line-height: 32px;
+	width: 110px;
+}
+
+.add_form > div > input,
+.add_form > div > select,
+.add_form > div > textarea {
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	flex: 1;
+	font-size: 1em;
+	margin-left: 15px;
+	padding: 3px 5px;
+}
+
+.add_form > div > span {
+	color: #800;
+	line-height: 32px;
+	margin-left: 10px;
+}
+
+.add_form__button {
+	background: rgba(0,0,0,0.1);
+	border-radius: 3px;
+	border: 0;
+	color: rgba(0,0,0,0.6);
+	cursor: pointer;
+	display: block;
+	font-size: 24.5px;
+	height: 100%;
+	outline-width: 0;
+	padding: 6px;
+	transition: all .1s ease;
+	width: 100%;
+}
+
+.add_form__button:first-of-type {
+	margin-bottom: 5px;
+}
+
+.add_form__button:hover {
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+}
